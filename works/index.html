@@ -9,40 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
 
     <!-- ===== HEADER ===== -->
-    <header class="header header--scrolled">
+    <header class="header">
         <div class="l-container header__inner">
-            <a href="index.html" class="header__logo">Prime<span class="header__logo-dot">.</span>Creative</a>
+            <a href="/" class="header__logo">Prime<span class="header__logo-dot">.</span>Creative</a>
             <nav class="header__nav">
                 <ul class="nav__list">
-                    <li><a href="works.html" class="is-current">制作実績</a></li>
-                    <li><a href="about.html">当社について</a></li>
-                    <li><a href="plans.html">プラン一覧</a></li>
-                    <li><a href="contact.html">お問い合わせ</a></li>
+                    <li><a href="/works">制作実績</a></li>
+                    <li><a href="/about">当社について</a></li>
+                    <li><a href="/plans">プラン一覧</a></li>
+                    <li><a href="/contact">お問い合わせ</a></li>
                 </ul>
             </nav>
-            <a href="contact.html" class="btn btn--primary header__cta-btn">無料相談する</a>
-            <button class="header__hamburger" aria-label="メニューを開く">
+            <a href="/contact" class="btn btn--primary header__cta-btn">無料相談する</a>
+            <button class="header__hamburger" aria-label="メニューを開く" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
         </div>
     </header>
 
     <!-- Mobile nav -->
-    <nav class="mobile-nav">
+    <nav class="mobile-nav" aria-hidden="true">
         <ul class="nav__list">
-            <li><a href="works.html">制作実績</a></li>
-            <li><a href="about.html">当社について</a></li>
-            <li><a href="plans.html">プラン一覧</a></li>
-            <li><a href="contact.html">お問い合わせ</a></li>
+            <li><a href="/works">制作実績</a></li>
+            <li><a href="/about">当社について</a></li>
+            <li><a href="/plans">プラン一覧</a></li>
+            <li><a href="/contact">お問い合わせ</a></li>
         </ul>
         <div class="mobile-nav__cta">
-            <a href="contact.html" class="btn btn--primary">無料相談する</a>
+            <a href="/contact" class="btn btn--primary">無料相談する</a>
         </div>
     </nav>
 
@@ -340,7 +340,7 @@
         <a href="contact.html" class="btn btn--primary">無料で相談する</a>
     </div>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
